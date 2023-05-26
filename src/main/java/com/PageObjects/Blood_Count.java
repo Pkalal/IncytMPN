@@ -73,7 +73,7 @@ public class Blood_Count {
 	    return Hemoglobin2;
 	}
 	
-	//Locating the Hematocrit text field
+	//Locating the Hematocrit textfield
 		@FindBy(xpath = "//android.widget.EditText[@text='Hematocrit']")
 		 public  WebElement Hematocrit;
 		//Sending value to the Hematocrit text feild 
